@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    margin-top: 150px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+
+.addNewCity{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+}
+input{
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: -25px;
+    cursor: pointer;
+}
+#addNewCityButton{
+    background-color:transparent;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    font-size: 50px;
+    position: relative;
+    left: 32%;
+    cursor: pointer;
+}
+
+.note{
+    background: rgb(203,203,203);
+background: radial-gradient(circle, rgba(203,203,203,1) 0%, rgba(28,71,138,1) 88%);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 345px;
+    grid-template-rows: max-content;
+    row-gap: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+.buttonDelete{
+    position: relative;
+    top: 10px;
+    right: -140px;
+    background-color: white;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.icon{
+    position: relative;
+    display: grid;
+    justify-items: center;
+    margin-bottom: -25px;
+    
+}
+.icon2{
+    position: relative;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 0px;
+    width: 35px;
+    height: 35px;
+}
+.temp{
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+.temp2{
+    font-size: 16px;
+    
+}
+hr{
+    width: 85%;
+    
+}
+
+.foreCast{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 55px 55px 55px 55px 55px;
+    grid-template-rows: 60px;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+.rowForeCast{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 55px;
+    grid-template-rows: 10px;
+    row-gap: 10px;
+    
+}
